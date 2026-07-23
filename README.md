@@ -7,6 +7,8 @@
 <p align="center">
   <a href="https://github.com/EdryStarz?tab=repositories">Projects</a>
   ·
+  <a href="https://gubanovfiles.com/">Файлы Губанова</a>
+  ·
   <a href="https://github.com/EdryStarz/shorts-studio">Featured project</a>
 </p>
 
@@ -25,7 +27,7 @@
 | [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Turns long videos into ranked, reframed and subtitled vertical clips | Python, FastAPI, React, FFmpeg, Whisper |
 | [WhisperWink](https://github.com/EdryStarz/WhisperWink) | Age-gated Telegram Mini App for creator job workflows | Node.js, Express, Telegraf |
 | [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact persistent desktop counter with a dark interface | Python, Tkinter |
-| [TT Cover Studio](https://github.com/EdryStarz/tt-previews) | Browser-based vertical thumbnail maker | HTML, CSS, JavaScript |
+| [Файлы Губанова](https://gubanovfiles.com/) | Public website | Web |
 
 ## Toolbox
 
@@ -46,4 +48,3 @@
 
 Local AI workflows, polished Windows utilities and creator tools that remain
 useful without paid cloud inference.
-
