@@ -26,7 +26,7 @@
 | [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Turns long videos into ranked, reframed and subtitled vertical clips | Python, FastAPI, React, FFmpeg, Whisper |
 | [WhisperWink](https://github.com/EdryStarz/WhisperWink) | Age-gated Telegram Mini App for creator job workflows | Node.js, Express, Telegraf |
 | [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact persistent desktop counter with a dark interface | Python, Tkinter |
-| [Файлы Губанова](https://gubanovfiles.com/) | Public website | Web |
+
 
 ## Toolbox
 
