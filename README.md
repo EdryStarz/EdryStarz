@@ -7,7 +7,6 @@
 <p align="center">
   <a href="https://github.com/EdryStarz?tab=repositories">Projects</a>
   ·
-  <a href="https://gubanovfiles.com/">Файлы Губанова</a>
   ·
   <a href="https://github.com/EdryStarz/shorts-studio">Featured project</a>
 </p>
