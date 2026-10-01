@@ -1,17 +1,18 @@
 <h1 align="center">Hi, I'm Artem 👋</h1>
 
 <p align="center">
-  I build practical Windows apps, Telegram products and local-first media automation.
+  AI-assisted developer building practical Windows apps, Telegram products and local-first media automation.
 </p>
 
 <p align="center">
   <a href="https://github.com/EdryStarz?tab=repositories">Projects</a>
   ·
-  ·
   <a href="https://github.com/EdryStarz/shorts-studio">Featured project</a>
 </p>
 
 ## About
+
+Based in Batumi, Georgia. Open to remote AI-assisted development, prototyping and automation roles.
 
 - I turn repetitive workflows into focused desktop and web tools.
 - I enjoy local-first software that keeps processing and user data on the device.
@@ -43,7 +44,14 @@
   <img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white">
 </p>
 
+## How I work
+
+I use AI coding assistants to turn product requirements into working iterations: break down tasks, inspect repositories, implement changes, and check behavior and edge cases. My background in video editing and digital design helps me connect technical workflows with clear, useful interfaces.
+
+I describe project capabilities separately from deployment and test evidence. The repositories contain implementation details and setup instructions; a portfolio entry is not a claim of production-scale operation.
+
 ## Current focus
 
-Local AI workflows, polished Windows utilities and creator tools that remain
-useful without paid cloud inference.
+- AI-assisted app development and workflow automation
+- Local-first media tools and polished Windows utilities
+- Practical prototypes with reproducible setup and clear limitations
