@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "last_analysis_date": "2026-10-07",
-  "public_repositories_reviewed": 7,
+  "public_repositories_reviewed": 9,
   "history_scope": "Available relevant chats and local project files; not a complete conversation archive",
   "projects": [
     {
@@ -66,6 +66,49 @@
         "demonstrability": 4,
         "technical_depth": 2
       }
+    },
+    {
+      "repository": "EdryStarz/english-memory",
+      "status": "Prototype",
+      "score": 23,
+      "score_scale": "Five dimensions, 0-5 each; total 0-25",
+      "score_dimensions": {
+        "completion": 4,
+        "relevance": 5,
+        "demonstrability": 4,
+        "originality": 5,
+        "technical_depth": 5
+      },
+      "source_commit": "3f8a9673a124fd1fc71eb2225a65d7fde426298c",
+      "evidence": [
+        "Published source code",
+        "WinUI Windows publish passed",
+        "74/74 default behavior checks passed"
+      ],
+      "featured": true,
+      "release_verified": false
+    },
+    {
+      "repository": "EdryStarz/english-b2-tracker",
+      "status": "Prototype",
+      "score": 21,
+      "score_scale": "Five dimensions, 0-5 each; total 0-25",
+      "score_dimensions": {
+        "demonstrability": 4,
+        "completion": 4,
+        "relevance": 5,
+        "originality": 4,
+        "technical_depth": 4
+      },
+      "source_commit": "6486412f2e1107c13083be45683298b391ec4876",
+      "evidence": [
+        "Published source",
+        "Next.js production build passed",
+        "Lint and TypeScript checks passed",
+        "Runtime npm audit: zero findings"
+      ],
+      "featured": true,
+      "release_verified": false
     }
   ],
   "technologies": [
@@ -88,14 +131,20 @@
     "Docker Compose",
     "Node.js",
     "Express",
-    "Telegraf"
+    "Telegraf",
+    ".NET 10",
+    "WinUI 3",
+    "SQLite",
+    "NAudio",
+    "Whisper.net",
+    "LLamaSharp",
+    "IndexedDB",
+    "Next.js",
+    "PWA"
   ],
   "meaningful_changes": [
-    "Removed precise location from profile",
-    "Added explicit project maturity statuses",
-    "Focused featured projects on desktop and media tools",
-    "Corrected Shorts Studio documentation and verification commands",
-    "Corrected TextFlow clipboard behavior and documented verified checks"
+    "Published English Memory and English B2 Tracker source repositories",
+    "Added both English learning projects to profile"
   ],
   "checks": {
     "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",
@@ -103,7 +152,9 @@
     "textflow_behavior_checks": "Passed: 9/9 behavior checks on Windows",
     "live_publishing": "Not run",
     "frontend_build": "Passed: npm ci and npm run build (TypeScript + Vite)",
-    "dependency_audit": "Frontend npm audit reported 2 moderate and 3 high vulnerabilities; dependency changes outside documentation scope"
+    "dependency_audit": "Frontend npm audit reported 2 moderate and 3 high vulnerabilities; dependency changes outside documentation scope",
+    "english_memory": "Windows x64 publish and 74/74 default checks passed",
+    "english_tracker": "Build, lint, TypeScript passed; zero runtime audit findings; five high findings in development dependencies"
   },
   "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills"
 }

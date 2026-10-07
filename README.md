@@ -23,6 +23,8 @@ Open to remote AI-assisted development, prototyping and automation roles.
 
 | Project | What it does | Stack | Status |
 | --- | --- | --- | --- |
+| [English Memory](https://github.com/EdryStarz/english-memory) | Turns microphone and PC audio into a local vocabulary library with Whisper transcription, language-model analysis and spaced repetition. Includes executable behavior checks. | C#, .NET 10, WinUI 3, SQLite, Whisper.net, LLamaSharp | Prototype |
+| [English B2 Tracker](https://github.com/EdryStarz/english-b2-tracker) | A 12-week study planner with daily tasks, vocabulary, an error log and progress tracking. Stores study data in IndexedDB with JSON backups. | TypeScript, React, Next.js, IndexedDB, PWA | Prototype |
 | [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows snippets with global hotkeys, Unicode paste and a quick-search palette. Includes behavior checks for clipboard and input handling. | C#, .NET 8, WPF, Win32 | Prototype |
 | [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Local video pipeline with transcription, multimodal ranking, vertical reframing and subtitles. Stores stage results so completed processing can be reused. | Python, FastAPI, React, FFmpeg, faster-whisper | In Development |
 | [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact desktop counter with keyboard controls and atomic persistence of its value between sessions. | Python, Tkinter | Prototype |
