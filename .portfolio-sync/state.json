@@ -109,6 +109,38 @@
       ],
       "featured": true,
       "release_verified": false
+    },
+    {
+      "name": "Stars About War",
+      "repository": null,
+      "status": "Completed",
+      "distribution": "Published browser extension",
+      "score": 23,
+      "featured": true,
+      "release_verified": true,
+      "evidence": [
+        "Public store listing",
+        "Local extension manifest and README"
+      ],
+      "store_url": "https://chromewebstore.google.com/detail/hehkapopfhfcoegmccjcdppmdmioigid",
+      "portfolio_page": "projects/stars-about-war.md",
+      "fresh_browser_test": false
+    },
+    {
+      "name": "Alabuga Detector",
+      "repository": null,
+      "status": "Completed",
+      "distribution": "Published browser extension",
+      "score": 22,
+      "featured": true,
+      "release_verified": true,
+      "evidence": [
+        "Public store listing",
+        "Local extension manifest and README"
+      ],
+      "store_url": "https://addons.mozilla.org/en-US/firefox/addon/alabuga-channel-detector/",
+      "portfolio_page": "projects/alabuga-detector.md",
+      "fresh_browser_test": false
     }
   ],
   "technologies": [
@@ -140,11 +172,14 @@
     "LLamaSharp",
     "IndexedDB",
     "Next.js",
-    "PWA"
+    "PWA",
+    "Manifest V3",
+    "WebExtensions",
+    "Chrome Storage",
+    "DOM MutationObserver"
   ],
   "meaningful_changes": [
-    "Published English Memory and English B2 Tracker source repositories",
-    "Added both English learning projects to profile"
+    "Added two published browser extensions with individual portfolio pages and installation links"
   ],
   "checks": {
     "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",

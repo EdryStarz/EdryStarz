@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Artem 👋</h1>
 
 <p align="center">
-  AI-assisted developer building practical Windows apps, Telegram products and local-first media automation.
+  AI-assisted developer building published browser extensions, practical Windows apps and local-first media automation.
 </p>
 
 <p align="center">
@@ -23,6 +23,8 @@ Open to remote AI-assisted development, prototyping and automation roles.
 
 | Project | What it does | Stack | Status |
 | --- | --- | --- | --- |
+| [Stars About War](projects/stars-about-war.md) | YouTube labels linked to classifications from Stars About War. Uses local identity matching, scheduled data updates and a cached fallback. [Install for Chrome](https://chromewebstore.google.com/detail/hehkapopfhfcoegmccjcdppmdmioigid). | JavaScript, Manifest V3, Chrome Storage, DOM observers | Completed · Published |
+| [Alabuga Detector](projects/alabuga-detector.md) | Labels YouTube channels listed by gubanovfiles.com and links viewers to the source. Local matching and caching; published for [Chrome](https://chromewebstore.google.com/detail/ngfbnchnfaijhmckphhfkhnackjbidog) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/alabuga-channel-detector/). | JavaScript, WebExtensions, HTML, CSS | Completed · Published |
 | [English Memory](https://github.com/EdryStarz/english-memory) | Turns microphone and PC audio into a local vocabulary library with Whisper transcription, language-model analysis and spaced repetition. Includes executable behavior checks. | C#, .NET 10, WinUI 3, SQLite, Whisper.net, LLamaSharp | Prototype |
 | [English B2 Tracker](https://github.com/EdryStarz/english-b2-tracker) | A 12-week study planner with daily tasks, vocabulary, an error log and progress tracking. Stores study data in IndexedDB with JSON backups. | TypeScript, React, Next.js, IndexedDB, PWA | Prototype |
 | [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows snippets with global hotkeys, Unicode paste and a quick-search palette. Includes behavior checks for clipboard and input handling. | C#, .NET 8, WPF, Win32 | Prototype |
