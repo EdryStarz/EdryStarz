@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "last_analysis_date": "2026-10-07",
+  "public_repositories_reviewed": 7,
+  "history_scope": "Available relevant chats and local project files; not a complete conversation archive",
+  "projects": [
+    {
+      "repository": "EdryStarz/TextFlow",
+      "status": "Prototype",
+      "score": 21,
+      "score_scale": "Five dimensions, 0-5 each; total 0-25",
+      "source_commit": "e633c1ad5806a1d0a9f4c55543d2efe1f0dfdd32",
+      "evidence": [
+        "Public source code",
+        "README",
+        "Repository history"
+      ],
+      "featured": true,
+      "release_verified": false,
+      "score_dimensions": {
+        "originality": 3,
+        "completion": 4,
+        "relevance": 5,
+        "demonstrability": 5,
+        "technical_depth": 4
+      }
+    },
+    {
+      "repository": "EdryStarz/shorts-studio",
+      "status": "In Development",
+      "score": 22,
+      "score_scale": "Five dimensions, 0-5 each; total 0-25",
+      "source_commit": "39f585b175fec1bf75c8fa6a60e92ae92d7eb247",
+      "evidence": [
+        "Public source code",
+        "README",
+        "Repository history"
+      ],
+      "featured": true,
+      "release_verified": false,
+      "score_dimensions": {
+        "originality": 5,
+        "completion": 3,
+        "relevance": 5,
+        "demonstrability": 4,
+        "technical_depth": 5
+      }
+    },
+    {
+      "repository": "EdryStarz/windows-counter",
+      "status": "Prototype",
+      "score": 15,
+      "score_scale": "Five dimensions, 0-5 each; total 0-25",
+      "source_commit": "edf5ebbc50407e500eba462b2d896a0a697e3107",
+      "evidence": [
+        "Public source code",
+        "README",
+        "Repository history"
+      ],
+      "featured": true,
+      "release_verified": false,
+      "score_dimensions": {
+        "originality": 2,
+        "completion": 4,
+        "relevance": 3,
+        "demonstrability": 4,
+        "technical_depth": 2
+      }
+    }
+  ],
+  "technologies": [
+    "C#",
+    ".NET 8",
+    "WPF",
+    "Win32",
+    "Python",
+    "Tkinter",
+    "FastAPI",
+    "SQLAlchemy",
+    "Celery",
+    "React",
+    "TypeScript",
+    "FFmpeg",
+    "faster-whisper",
+    "OpenCV",
+    "PostgreSQL",
+    "Redis",
+    "Docker Compose",
+    "Node.js",
+    "Express",
+    "Telegraf"
+  ],
+  "meaningful_changes": [
+    "Removed precise location from profile",
+    "Added explicit project maturity statuses",
+    "Focused featured projects on desktop and media tools",
+    "Corrected Shorts Studio documentation and verification commands",
+    "Corrected TextFlow clipboard behavior and documented verified checks"
+  ],
+  "checks": {
+    "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",
+    "full_media_pipeline": "Not run",
+    "textflow_behavior_checks": "Passed: 9/9 behavior checks on Windows",
+    "live_publishing": "Not run",
+    "frontend_build": "Passed: npm ci and npm run build (TypeScript + Vite)",
+    "dependency_audit": "Frontend npm audit reported 2 moderate and 3 high vulnerabilities; dependency changes outside documentation scope"
+  },
+  "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills"
+}

@@ -12,7 +12,7 @@
 
 ## About
 
-Based in Batumi, Georgia. Open to remote AI-assisted development, prototyping and automation roles.
+Open to remote AI-assisted development, prototyping and automation roles.
 
 - I turn repetitive workflows into focused desktop and web tools.
 - I enjoy local-first software that keeps processing and user data on the device.
@@ -21,12 +21,11 @@ Based in Batumi, Georgia. Open to remote AI-assisted development, prototyping an
 
 ## Featured projects
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows text snippets, global hotkeys and quick search | C#, .NET 8, WPF, Win32 |
-| [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Turns long videos into ranked, reframed and subtitled vertical clips | Python, FastAPI, React, FFmpeg, Whisper |
-| [WhisperWink](https://github.com/EdryStarz/WhisperWink) | Age-gated Telegram Mini App for creator job workflows | Node.js, Express, Telegraf |
-| [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact persistent desktop counter with a dark interface | Python, Tkinter |
+| Project | What it does | Stack | Status |
+| --- | --- | --- | --- |
+| [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows snippets with global hotkeys, Unicode paste and a quick-search palette. Includes behavior checks for clipboard and input handling. | C#, .NET 8, WPF, Win32 | Prototype |
+| [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Local video pipeline with transcription, multimodal ranking, vertical reframing and subtitles. Stores stage results so completed processing can be reused. | Python, FastAPI, React, FFmpeg, faster-whisper | In Development |
+| [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact desktop counter with keyboard controls and atomic persistence of its value between sessions. | Python, Tkinter | Prototype |
 
 
 ## Toolbox
