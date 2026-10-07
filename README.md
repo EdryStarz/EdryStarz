@@ -5,6 +5,8 @@
 </p>
 
 <p align="center">
+  <a href="https://edrystarz.github.io/">Project collection & installation links</a>
+  ·
   <a href="https://github.com/EdryStarz?tab=repositories">Projects</a>
   ·
   <a href="https://github.com/EdryStarz/shorts-studio">Featured project</a>

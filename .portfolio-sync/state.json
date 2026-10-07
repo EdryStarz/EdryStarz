@@ -179,7 +179,9 @@
     "DOM MutationObserver"
   ],
   "meaningful_changes": [
-    "Added two published browser extensions with individual portfolio pages and installation links"
+    "Published standalone project collection with seven landing pages",
+    "Added social preview images and share buttons",
+    "Prepared launch copy and demo outlines"
   ],
   "checks": {
     "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",
@@ -191,5 +193,13 @@
     "english_memory": "Windows x64 publish and 74/74 default checks passed",
     "english_tracker": "Build, lint, TypeScript passed; zero runtime audit findings; five high findings in development dependencies"
   },
-  "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills"
+  "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills",
+  "showcase": {
+    "project_pages": 7,
+    "url": "https://edrystarz.github.io/",
+    "source_commit": "7d4ca528fb20ef93ee86c95b876f894ac4692b50",
+    "repository": "EdryStarz/edrystarz.github.io",
+    "promotion_posts": "Prepared, not posted",
+    "analytics": "None"
+  }
 }
