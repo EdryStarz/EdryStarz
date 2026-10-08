@@ -31,6 +31,7 @@ Open to remote AI-assisted development, prototyping and automation roles.
 | [English B2 Tracker](https://github.com/EdryStarz/english-b2-tracker) | A 12-week study planner with daily tasks, vocabulary, an error log and progress tracking. Stores study data in IndexedDB with JSON backups. | TypeScript, React, Next.js, IndexedDB, PWA | Prototype |
 | [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows snippets with global hotkeys, Unicode paste and a quick-search palette. Includes behavior checks for clipboard and input handling. | C#, .NET 8, WPF, Win32 | Prototype |
 | [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Local video pipeline with transcription, multimodal ranking, vertical reframing and subtitles. Stores stage results so completed processing can be reused. | Python, FastAPI, React, FFmpeg, faster-whisper | In Development |
+| [FlyStream Lab](https://github.com/EdryStarz/FlyStream) | Experimental 3D virtual fly streamer with shared control/OBS views, moderated chat, polls and video-only clip export. Local checks are documented; clean-install CI currently fails on missing Node.js type declarations. | TypeScript, React, Three.js, Node.js, Vite | Prototype |
 | [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact desktop counter with keyboard controls and atomic persistence of its value between sessions. | Python, Tkinter | Prototype |
 
 

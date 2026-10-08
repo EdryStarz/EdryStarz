@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_analysis_date": "2026-10-07",
-  "public_repositories_reviewed": 9,
+  "last_analysis_date": "2026-10-08",
+  "public_repositories_reviewed": 11,
   "history_scope": "Available relevant chats and local project files; not a complete conversation archive",
   "projects": [
     {
@@ -9,7 +9,7 @@
       "status": "Prototype",
       "score": 21,
       "score_scale": "Five dimensions, 0-5 each; total 0-25",
-      "source_commit": "e633c1ad5806a1d0a9f4c55543d2efe1f0dfdd32",
+      "source_commit": "496a8b139bef052ea10d81f929d2092a079351a1",
       "evidence": [
         "Public source code",
         "README",
@@ -30,7 +30,7 @@
       "status": "In Development",
       "score": 22,
       "score_scale": "Five dimensions, 0-5 each; total 0-25",
-      "source_commit": "39f585b175fec1bf75c8fa6a60e92ae92d7eb247",
+      "source_commit": "a56c8cdf77cc275895957012056e342fc337a695",
       "evidence": [
         "Public source code",
         "README",
@@ -141,6 +141,18 @@
       "store_url": "https://addons.mozilla.org/en-US/firefox/addon/alabuga-channel-detector/",
       "portfolio_page": "projects/alabuga-detector.md",
       "fresh_browser_test": false
+    },
+    {
+      "repository": "EdryStarz/FlyStream",
+      "status": "Prototype",
+      "source_commit": "e27fb27",
+      "evidence": [
+        "Published source snapshot",
+        "Local verification reports: 50 tests and build",
+        "First clean-install CI failed: missing Node.js type declarations"
+      ],
+      "featured": true,
+      "release_verified": false
     }
   ],
   "technologies": [
@@ -201,5 +213,11 @@
     "repository": "EdryStarz/edrystarz.github.io",
     "promotion_posts": "Prepared, not posted",
     "analytics": "None"
+  },
+  "showcase_review_2026_10_08": {
+    "project_pages": 8,
+    "added": "FlyStream Lab",
+    "source_before_update": "8481f3bbd56b10f65530266e2fea6eef82ecb80c",
+    "analytics_verified": false
   }
 }
