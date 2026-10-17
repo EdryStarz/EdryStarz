@@ -32,8 +32,13 @@ Open to remote AI-assisted development, prototyping and automation roles.
 | [TextFlow](https://github.com/EdryStarz/TextFlow) | Portable Windows snippets with global hotkeys, Unicode paste and a quick-search palette. Includes behavior checks for clipboard and input handling. | C#, .NET 8, WPF, Win32 | Prototype |
 | [Shorts Studio](https://github.com/EdryStarz/shorts-studio) | Local video pipeline with transcription, multimodal ranking, vertical reframing and subtitles. Stores stage results so completed processing can be reused. | Python, FastAPI, React, FFmpeg, faster-whisper | In Development |
 | [FlyStream Lab](https://github.com/EdryStarz/FlyStream) | Experimental 3D virtual fly streamer with shared control/OBS views, moderated chat, polls and video-only clip export. Local checks are documented; clean-install CI currently fails on missing Node.js type declarations. | TypeScript, React, Three.js, Node.js, Vite | Prototype |
+| [Ashen Oath](https://github.com/EdryStarz/ashen-oath) | Offline Android habit planner with pixel-art battles, hero progression and JSON save backups. [Signed APK 0.7.2](https://github.com/EdryStarz/ashen-oath/releases/tag/v0.7.2) available; physical-device performance not profiled. | Godot, GDScript, Android | Prototype · APK released |
+| [Drosophila](https://edrystarz.github.io/drosophila-game/) | Android virtual pet and retro arcade. [APK 0.15.1](https://github.com/EdryStarz/drosophila-game/releases/tag/v0.15.1) and game materials are public; application source remains private. | Android, Kotlin | Prototype · APK released |
+| [CareerPilot Local](https://github.com/EdryStarz/careerpilot-local) | CV-based discovery with local Ollama inference, a private Telegram bot and opt-in supported applications. Public preview extending [fikstt2/hh-ai-agent](https://github.com/fikstt2/hh-ai-agent); human review remains necessary for unsupported forms. | Python, Playwright, Ollama, Telegram | In Development · Public preview |
 | [Windows Counter](https://github.com/EdryStarz/windows-counter) | Compact desktop counter with keyboard controls and atomic persistence of its value between sessions. | Python, Tkinter | Prototype |
 
+
+Additional creative work: [design](https://edrystarz.github.io/artem-pronin-portfolio-public/design/), [SMM](https://edrystarz.github.io/artem-pronin-portfolio-public/smm/), [writing](https://edrystarz.github.io/artem-pronin-portfolio-public/writer/) and [video editing](https://edrystarz.github.io/artem-pronin-portfolio-public/editor/). These are static portfolio mirrors.
 
 ## Toolbox
 

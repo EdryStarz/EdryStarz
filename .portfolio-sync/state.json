@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_analysis_date": "2026-10-08",
-  "public_repositories_reviewed": 11,
+  "last_analysis_date": "2026-10-17",
+  "public_repositories_reviewed": 15,
   "history_scope": "Available relevant chats and local project files; not a complete conversation archive",
   "projects": [
     {
@@ -153,6 +153,39 @@
       ],
       "featured": true,
       "release_verified": false
+    },
+    {
+      "repository": "EdryStarz/ashen-oath",
+      "status": "Prototype",
+      "source_commit": "2184de43ee629be3aca4726be880d017e01ab36c",
+      "featured": true,
+      "release_verified": true,
+      "evidence": [
+        "Mark self-reported habits to earn experience and prepare a hero for three forest opponents. A signed Android 0.7.2 APK and source are public. Release documentation records emulator checks for 0.7.1 and asset/signature checks for 0.7.2; physical-device performance was not profiled.",
+        "Russian game interface. Android 7.0+, ARM64 / x86_64. APK release available; store approval not verified. No browser game demo. Export saves before replacing a debug build."
+      ]
+    },
+    {
+      "repository": "EdryStarz/drosophila-game",
+      "status": "Prototype",
+      "source_commit": "a190ef8b91452dc8f6fa83f4de906a353201064e",
+      "featured": true,
+      "release_verified": true,
+      "evidence": [
+        "A virtual-pet project distributed as an Android APK. The public repository contains the game website and promotional materials; the application source remains private. APK availability is verified, but this portfolio review did not install or retest the release.",
+        "Public APK and game materials; application source is not included. Store approval and a browser-playable demo are not verified."
+      ]
+    },
+    {
+      "repository": "EdryStarz/careerpilot-local",
+      "status": "In Development",
+      "source_commit": "985e0ea542015c211957e605f1579a4ac04f2aa2",
+      "featured": true,
+      "release_verified": true,
+      "evidence": [
+        "A Python public preview extending fikstt2/hh-ai-agent. Searches public job boards and configured ATS/Telegram sources. Supported submissions require explicit configuration; unknown forms, login and missing required facts can need human review. Successful CI does not prove live compatibility with every employer website.",
+        "Public preview v0.2.0; not a hosted application or universal unattended applicant. Requires local setup and personal credentials. Based on an upstream MIT project."
+      ]
     }
   ],
   "technologies": [
@@ -191,9 +224,9 @@
     "DOM MutationObserver"
   ],
   "meaningful_changes": [
-    "Published standalone project collection with seven landing pages",
-    "Added social preview images and share buttons",
-    "Prepared launch copy and demo outlines"
+    "Added two Android APK projects and CareerPilot public preview",
+    "Linked reviewed creative portfolio mirrors",
+    "Preserved source/download/demo distinctions and upstream attribution"
   ],
   "checks": {
     "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",
@@ -207,9 +240,9 @@
   },
   "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills",
   "showcase": {
-    "project_pages": 7,
+    "project_pages": 11,
     "url": "https://edrystarz.github.io/",
-    "source_commit": "7d4ca528fb20ef93ee86c95b876f894ac4692b50",
+    "source_commit": "d31441b30fa99c0cab4b465462652a2030fac08e",
     "repository": "EdryStarz/edrystarz.github.io",
     "promotion_posts": "Prepared, not posted",
     "analytics": "None"
