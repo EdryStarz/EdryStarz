@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_analysis_date": "2026-10-17",
-  "public_repositories_reviewed": 15,
+  "last_analysis_date": "2026-10-24",
+  "public_repositories_reviewed": 16,
   "history_scope": "Available relevant chats and local project files; not a complete conversation archive",
   "projects": [
     {
@@ -186,6 +186,18 @@
         "A Python public preview extending fikstt2/hh-ai-agent. Searches public job boards and configured ATS/Telegram sources. Supported submissions require explicit configuration; unknown forms, login and missing required facts can need human review. Successful CI does not prove live compatibility with every employer website.",
         "Public preview v0.2.0; not a hosted application or universal unattended applicant. Requires local setup and personal credentials. Based on an upstream MIT project."
       ]
+    },
+    {
+      "repository": "EdryStarz/crimeweb-europe-collector",
+      "status": "In Development",
+      "source_commit": "80e69c8c5c89ff49b2cd29db41f777b5da9512a9",
+      "featured": true,
+      "release_verified": false,
+      "evidence": [
+        "Public transport source and tests",
+        "Two latest workflow runs successful",
+        "Private server dependency; no public application code or map demo"
+      ]
     }
   ],
   "technologies": [
@@ -224,9 +236,7 @@
     "DOM MutationObserver"
   ],
   "meaningful_changes": [
-    "Added two Android APK projects and CareerPilot public preview",
-    "Linked reviewed creative portfolio mirrors",
-    "Preserved source/download/demo distinctions and upstream attribution"
+    "Added standalone CrimeWeb RSS transport with explicit private-server boundary"
   ],
   "checks": {
     "counter_persistence": "Passed: default, save/reload, malformed JSON fallback",
@@ -240,9 +250,9 @@
   },
   "update_policy": "Commit only meaningful documentation or milestone changes; never publish private chat content or unverified skills",
   "showcase": {
-    "project_pages": 11,
+    "project_pages": 12,
     "url": "https://edrystarz.github.io/",
-    "source_commit": "d31441b30fa99c0cab4b465462652a2030fac08e",
+    "source_commit": "368605166e535d182af2d56c9970182aeca166d4",
     "repository": "EdryStarz/edrystarz.github.io",
     "promotion_posts": "Prepared, not posted",
     "analytics": "None"
